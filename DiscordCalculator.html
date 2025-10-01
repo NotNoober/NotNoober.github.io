@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8" /><title>calculator prompt</title></head>
+<head>
+<meta charset="UTF-8" />
+<style>
+  body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000;
+  }
+  img {
+    max-width: 90%;
+    max-height: 90%;
+  }
+</style>
+</head>
 <body>
+  <img src="https://cdn.discordapp.com/attachments/1297914405522116680/1374722678749007882/caption.gif" alt="GIF">
 
-<img src="https://cdn.discordapp.com/attachments/1297914405522116680/1374722678749007882/caption.gif" alt="description" width="300">
-
-<script>
-  window.onload = () => {
-    // redirects to calculator:
-    window.location.href = "calculator:";
-  };
-</script>
-
+  <script>
+    setTimeout(() => {
+      window.location.href = "calculator:";
+    }, 100);
+  </script>
 </body>
 </html>
